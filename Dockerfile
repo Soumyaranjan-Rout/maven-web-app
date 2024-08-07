@@ -1,3 +1,3 @@
 FROM tomcat:9.0
 EXPOSE 9090
-COPY *.war /var/lib/jenkins/workspace/demo1/
+COPY target/*.war /usr/local/tomcat/webapps/app.war
